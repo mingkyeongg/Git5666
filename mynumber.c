@@ -6,7 +6,11 @@ int main(void)
   {
     if (i % 2 == 1)
     {
-      printf("%d\n", i);
+      printf("Odd Number : %d\n", i);
+    }
+    else
+    {
+      printf("Even Number : %d\n", i);
     }
   }
 }
